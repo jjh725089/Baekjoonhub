@@ -5,9 +5,9 @@ int main(void) {
     char s1[LEN_INPUT];
     int a;
     scanf("%s %d", s1, &a);
-    while (a > 0)
+    while (a)
     {
-        printf(s1);
+        printf("%s",s1);
         a--;
     }
     return 0;
